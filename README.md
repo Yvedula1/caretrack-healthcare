@@ -1,23 +1,97 @@
 # CareTrack Healthcare Portal
 
-CareTrack is a full-stack healthcare management portal for clinic admins to manage patients and appointment statuses.
+CareTrack is a full-stack healthcare management portal that allows clinic administrators and care coordinators to manage patients and track appointment statuses through a modern dashboard.
 
 ## Tech Stack
 
-- React frontend
-- Spring Boot backend
-- PostgreSQL database
-- REST APIs
+### Frontend
 
-## Core Features
+* React
+* Tailwind CSS
+* Axios
 
-- Add patient
-- View patients
-- Update patient
-- Delete patient
-- Track appointment status
-- Dashboard summary cards
+### Backend
 
-## Goal
+* Java Spring Boot
+* Spring Web
+* Spring Data JPA
+* PostgreSQL Driver
 
-Build an end-to-end healthcare portal with a clean UI, REST API backend, PostgreSQL persistence, and responsive design.
+### Database
+
+* PostgreSQL (Local Installation)
+
+---
+
+## Project Goal
+
+Build an end-to-end healthcare management portal with:
+
+* Modern healthcare dashboard
+* Patient management
+* Appointment tracking
+* Dashboard analytics
+* PostgreSQL persistence
+* REST API architecture
+* Responsive UI
+
+The application should look like a small production-ready healthcare portal rather than a basic CRUD application.
+
+---
+
+## Backend Structure
+
+backend/src/main/java/com/yasaswini/caretrack/
+
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── exception
+
+---
+
+## Frontend Structure
+
+frontend/src/
+
+├── components
+│   ├── DashboardCards.jsx
+│   ├── PatientForm.jsx
+│   ├── PatientTable.jsx
+│
+├── services
+│   └── patientService.js
+│
+├── pages
+│   └── Dashboard.jsx
+│
+├── App.jsx
+├── main.jsx
+
+
+
+## Git Commit Convention
+
+feat: add patient CRUD APIs
+
+feat: add dashboard summary API
+
+feat: implement healthcare dashboard UI
+
+fix: handle validation errors
+
+refactor: improve service layer
+
+---
+
+## Expected Deliverables
+
+* Patient CRUD
+* Dashboard Analytics
+* Validation
+* Exception Handling
+* Responsive UI
+* PostgreSQL Integration
+* End-to-End Testing
