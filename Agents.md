@@ -31,22 +31,6 @@ Backend:
 Database:
 - PostgreSQL
 
-## Expected Backend Structure
-
-backend/src/main/java/com/yasaswini/caretrack/
-├── controller
-├── service
-├── repository
-├── entity
-
-## Expected Frontend Structure
-
-frontend/src/
-├── components
-├── services
-├── App.jsx
-├── App.css
-
 ## Workflow
 
 1. Understand requirements.
